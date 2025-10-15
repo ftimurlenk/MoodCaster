@@ -1,0 +1,13 @@
+{
+  "name": "MoodCaster",
+  "description": "Generate English AI casts from your mood + category and post to Farcaster.",
+  "url": "http://localhost:5173/",
+  "iconUrl": "http://localhost:5173/icon.png",
+  "developer": {
+    "name": "Your Name",
+    "url": "https://example.com"
+  },
+  "requestedPermissions": [
+    "cast"
+  ]
+}
