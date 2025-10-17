@@ -1,6 +1,7 @@
-# MoodCaster — Premium Minimal UI (EN-only)
+# MoodCaster — Tasks Edition (EN-only)
 
 Generate a cast from Mood + Category using Groq and post via Farcaster Mini App SDK.
+Includes a **Tasks** tab with daily check-in, generate, post, and 3-cast bonus, tracked in localStorage.
 
 ## Requirements
 - Node 22.11.0+
@@ -20,7 +21,7 @@ npm run dev
 - API: proxied under /api from Vite
 
 ## Notes
-- Fixed state sync bug by passing mood+category into generateCast(m,c)
-- Validates inputs on server, returns error JSON
-- Minimal-premium design: pills, soft gradients, subtle shadows
+- Fixed state sync by passing mood+category into generateCast(m,c)
+- Tasks saved per device via localStorage
+- Minimal/premium design with tabs and badges
 - English-only output enforced by prompt
